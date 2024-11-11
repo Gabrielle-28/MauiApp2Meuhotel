@@ -69,13 +69,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\ContrataçãoHospedagem.xaml.cs">
-	    <DependentUpon>ContrataçãoHospedagem.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Views\ContrataçãoHospedagem.xaml">
+	  <MauiXaml Update="Views\ContratacaoHospedagem.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
