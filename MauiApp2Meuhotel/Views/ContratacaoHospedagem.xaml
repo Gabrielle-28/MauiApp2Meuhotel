@@ -56,12 +56,11 @@
                            Margin="10">
                             <VerticalStackLayout>
                                 <Label Text="Período da Estadia"/>
-                                 <HorizontalStackLayout>
-                                    <Label Text="Check-in:"/>
-                                      <DatePicker x:Name="stpck_checkin"
+                        <HorizontalStackLayout>
+                            <Label Text="Check-in:"/>
+                            <DatePicker x:Name="stpck_checkin"
                                         Format="dd/mm/yyyy"/>
                         </HorizontalStackLayout>
-<
                         <HorizontalStackLayout>
                             <Label Text="Check-out:"/>
                             <DatePicker x:Name="dtpck_checkput"

@@ -1,9 +1,9 @@
 
 namespace MauiApp2Meuhotel.Views;
 
-public partial class ContratacaoHospedagem : ContentPage
+public partial class Sobre : ContentPage
 {
-	public ContratacaoHospedagem()
+	public Sobre()
 	{
         InitializeComponent();
     }
