@@ -1,15 +1,18 @@
+using System;
+using Microsoft.Maui.Controls;
 
-namespace MauiApp2Meuhotel.Views;
-
-public partial class ContratacaoHospedagem : ContentPage
+namespace MauiApp2Meuhotel.Views
 {
-	public ContratacaoHospedagem()
-	{
-        InitializeComponent();
-    }
-
-    private void InitializeComponent()
+    public partial class ContratacaoHospedagem : ContentPage
     {
-        throw new NotImplementedException();
+        public ContratacaoHospedagem()
+        {
+            InitializeComponent();
+        }
+
+        private async void OnSobreButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SobrePage());
+        }
     }
 }

@@ -75,7 +75,7 @@
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Sobre.xaml">
+	  <MauiXaml Update="Views\SobrePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
