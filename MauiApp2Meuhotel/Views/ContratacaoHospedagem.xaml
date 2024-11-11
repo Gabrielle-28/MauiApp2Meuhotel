@@ -73,6 +73,7 @@
 
             </VerticalStackLayout>
         </Frame>
+        <Button Text="Avançar" Clicked="Button_Clicked"/>
 
         <Button Text="Sobre o App"
                 FontSize="18"

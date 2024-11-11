@@ -16,5 +16,8 @@ BackgroundColor="{StaticResource Black}">
             <Label Text="Ano de Desenvolvimento: 2024" FontSize="18" HorizontalOptions="Center" Margin="0,10,0,0"/>
             <Label Text="Nosso compromisso é proporcionar uma experiência de viagem mais tranquila e organizada. Aproveite o aplicativo para planejar sua próxima estadia de forma prática e eficiente!" FontSize="16" HorizontalOptions="Center" Margin="0,20,0,0" LineBreakMode="WordWrap" />
         </StackLayout>
+        <Button Text="Voltar"
+         HorizontalOptions="Center"
+         Clicked="Button_Clicked"/>
     </ScrollView>
 </ContentPage>
